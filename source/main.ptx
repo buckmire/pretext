@@ -12,18 +12,18 @@
   </docinfo>
 
   <book xml:id="my-great-book">
-    <title>My Great Book</title>
-    <subtitle>An example to get you started</subtitle>
+    <title>Squaring the Rainbow</title>
+    <subtitle>Successful Contemporary LGBTQ Mathematicians</subtitle>
 
     <frontmatter xml:id="frontmatter">
       <titlepage>
         <author>
-          <personname>You</personname>
-          <department>Your department</department>
-          <institution>Your institution</institution>
+          <personname>Ron Buckmire</personname>
+          <department>Mathematics</department>
+          <institution>Occidental College</institution>
         </author>
         <date>
-          <today />
+          <today/>
         </date>
       </titlepage>
 
@@ -37,8 +37,8 @@
         </website>
 
         <copyright>
-          <year>2020<ndash />2023</year>
-          <holder>You</holder>
+          <year>2023<ndash />2027</year>
+          <holder>Ron Buckmire</holder>
           <shortlicense> 
             This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit <url href="http://creativecommons.org/licenses/by-sa/4.0/" visual="creativecommons.org/licenses/by-sa/4.0"> CreativeCommons.org</url>
           </shortlicense>
@@ -51,9 +51,37 @@
 
       <section xml:id="section-title">
         <title>Section title</title>
-        <p>Hello</p>
-      </section>
+        <p>Hello World!!</p>
 
+        <definition xml:id="def-first-definition">
+          <statement>
+            <p>
+              An example of <term>math</term> is <m>\sin(x)^2</m>.
+            </p>
+          </statement>
+        </definition>
+        <p>
+          As we saw in <xref ref="def-first-definition"/>, math is cool.
+        </p>
+        <figure width="%" xml:id="first-fig">
+          <caption>A tikz image</caption>
+          <image xml:id="myimage">
+            <description>This is an example image</description>
+            <latex-image>
+              \begin{tikzpicture}
+                \draw[blue] (0,0) rectangle (1,1);
+              
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+        </figure>
+      </section>
+      <section xml:id="sec-second-section">
+        <title>Second Section</title>
+        <p>
+          Beautiful words, many beautful words!
+        </p>
+      </section>
     </chapter>
 
     <backmatter xml:id="backmatter">
